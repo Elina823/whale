@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+ font-family: 'Montserrat'; 
+}
+
+body {
+  margin: 0;
+}
+
+/* Set up navigation bar */
+nav {
+  background-color: lightskyblue;
+  padding: 1em;
+}
+
+nav a {
+  color: lightpink;
+  font-weight: bold;
+  text-decoration: none;
+} 
+
+nav a:hover {
+  color: lightcoral;
+  font-style: italic;
+}
+
+header, main {
+  background-color: aliceblue;
+  padding: 1em;
+}
+
+h1, h2, p, ul {
+  margin: 0;
+}
+
+/** Make sections look nice **/
+main section {
+  background-color:lavender;
+border-width: 1px solid lightyellow;
+  border-radius: 10px;
+  margin: 1em 0; 
+  padding:1em 2em ;/** add spacing betwen words **/
+}
+  /* For image slider */
+.arrow{ /* Class start with . */
+  border:solid black;
+  border-width: 0 10px 10px 0;
+  display:inline-block;
+  padding: 20px;
+}
+
+.left {
+  transform:rotate(135deg);
+}
+
+.right {
+  transform:rotate(-45deg);
+}
+
+#image-slider {
+  align-items: center;
+  display: flex;
+}
+
+/* change facts to bubbles */
+#facts {
+  display: flex;
+ list-style-type: none;
+  padding: 0;
+  gap: 0.5em;
+}
+
+#facts li {
+ background-color:blueviolet;
+  border: 1px solid  black;
+  border-radius: 15px;
+  padding: 0.25em;
+}
+
+#facts li:nth-child(2n) {
+   background-color:violet;
+}
