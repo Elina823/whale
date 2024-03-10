@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title> whales</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js" defer></script>
+</head>
+
+ <body> 
+  <nav>
+<a href="pages/about.html">About Page</a>
+</nav>
+  <header>
+  <h1>whales</h1>
+ <p>cheak out these whales<p>
+ </header>
+<main>
+  <section> 
+  <h2>fact about whales</h2>
+  <button id="add-fact"> Add a Fact! </button>
+ <ul id="facts">
+<li>blue whale is the biggest whale</li> 
+<li>bowhead whale lives the longest</li>
+<li>Grey whale iis the most friendly whale </li>
+<li> Killer whale is the most smartest</li>
+
+ </ul>
+</section>
+  <section>
+    <h2>pictures of a  whales</h2>
+   <article id="image-slider">
+     <div class="arrow left"id="left"></div>
+       <img src="images/bowhead whale.png" id= "picture" width="200">
+     <div class="arrow right"id="right"></div>
+   </article>
+  </section>
+</main>
+ </body>
+</html>    
